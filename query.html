@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            background-color: rgb(202, 115, 115);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="query">
+        <div class="qlogo"><img src="logo.svg" alt=""></div>
+        <div class="qform">
+            <h1>Contact us </h1>
+            <form name="myForm" onsubmit="return validateform()">
+                <div class="mb-3">
+                    <label for="viewermail" class="form-label">Name</label>
+                    <input type="name" name="fname" id="fname">
+                </div>
+                <div class="mb-3">
+                    <label for="viewermail" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="viewermail" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">Your data will be kept private</div>
+                </div>
+                <div class="mb-3">
+                    <label for="viewerphone" class="form-label">Phone</label>
+                    <input type="Phone" class="form-control" id="viewerphone">
+                </div>
+                <div class="textarea">
+                    <label for="qu">Describe your issue</label>
+                    <textarea name="qu" id="qu" cols="30" rows="10"></textarea>
+                </div>
+                <div class="butto">
+                    <button type="submit" style="margin-bottom: 25px; margin-right:10px">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

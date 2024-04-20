@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amrita Vishwa Vidyapeetham</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&family=Monoton&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Zeyada&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&family=Monoton&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Zeyada&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&family=Monoton&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Zeyada&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&family=Monoton&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Zeyada&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&family=Monoton&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Tajawal:wght@200;300;400;500;700;800;900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Zeyada&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&family=Monoton&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Satisfy&family=Tajawal:wght@200;300;400;500;700;800;900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Zeyada&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&family=Macondo&family=Monoton&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Satisfy&family=Tajawal:wght@200;300;400;500;700;800;900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Zeyada&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body onload="load()">
+    <div class="sidebar sidebargo">
+        <ul>
+            <li><img src="icon.png" alt="" style="height: 50px;width: 50px;border-radius:20px;"></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#phabout">About</a></li>
+            <li><a href="#campus">Campus</a></li>
+            <!-- <li><a href="#academics">Academics</a></li> -->
+            <li><a href="#reachus">Contact</a></li>
+        </ul>
+    </div>
+    <button onclick="topFunction()" id="topBtn" title="Go to top"><img src="up.svg" alt=""></button>
+    <div class="hamburger">
+        <img src="ham.png" alt="" class="ham">
+        <img src="cross.png" alt="" class="cross">
+    </div>
+    <div class="phone">
+
+        <div class="phlogo">
+            <img src="logo.svg" alt="">
+        </div>
+        <div class="phcon1">
+            <span>Welcome</span>
+            <span>To</span>
+            <span>Amrita</span>
+
+            <p>Help Us build Your Career</p>
+            <button onclick="scrollWin()">Scroll to see more</button><br>
+            <a href="brochure.pdf" target="_blank"><button>Brochure</button></a>
+        </div>
+        <div id="phabout">
+            <h2>About Us</h2>
+            <p>Amrita Vishwa Vidyapeetham is a multi-disciplinary, research-intensive, private university, educating a
+                vibrant student population of over 24,000 by 1700+ strong faculty. Accredited with the highest possible
+                ‘A++’ grade by NAAC, Amrita offers more than 250 UG, PG, and Ph.D. programs in Engineering, Management,
+                and Medical Sciences including Ayurveda, Life Sciences, Physical Sciences, Agriculture Sciences, Arts &
+                Humanities, and Social & Behavioral Sciences.
+
+                With its extensive network of eight campuses spread across Amaravati, Amritapuri, Bengaluru, Chennai,
+                Coimbatore, Kochi, Mysuru, and NCR Delhi (Faridabad), Amrita University stands as one of India’s
+                preeminent private educational institutions. Encompassing an expansive area of over 1200 acres, these
+                campuses offer an impressive built-up space of more than 100 lakh square feet. Renowned for its
+                commitment to academic excellence, Amrita University consistently ranks among the top-tier private
+                universities in the nation, solidifying its reputation as a beacon of quality education.</p>
+            <p>
+                Amrita has emerged as the seventh best university in the National Institutional Ranking Framework (NIRF)
+                Rankings 2023. Amrita School of Medicine, Kochi has been ranked 6th Best in Medicine in NIRF Rankings
+                2023.
+
+                In THE University Impact Rankings 2023, a pioneering initiative to recognise universities around the
+                world for their social and economic impact for sustainable future, Amrita has been ranked among the Top
+                50 in the world.
+
+                Amrita is emerging as one of the fastest-growing institutions of higher learning in India as we have
+                established 180+ collaborations with top 500 world-ranked universities in a short span of 18 years.
+
+                World-renowned humanitarian leader, Sri Mata Amritanandamayi Devi, AMMA, is the founding Chancellor and
+                guiding light of Amrita Vishwa Vidyapeetham.
+            </p>
+        </div>
+    </div>
+    <div id="home">
+
+        <div class="navbar" id="nb">
+
+            <div class="logo">
+                <img src="logo.svg" alt="">
+            </div>
+
+            <div class="list">
+                <ul>
+                    <li><button onclick="lightdark()" id="ldark" title="Click d to Change Theme" >
+                            L/D</button></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#campus">Campus</a></li>
+                    <!-- <li><a href="#academics">Academics</a></li> -->
+                    <li><a href="#events">Events</a></li>
+                    <li style="word-spacing: normal;"><a href="#reachus">Reach Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="navbar2" id="nb2">
+            <div class="list2">
+                <ul>
+                    <!-- <li><button>Log In</button></li>
+                    <li><button>Sign Up</button></li> -->
+                    <li><a href="admissions.html" target="_blank"><button>ADMISSIONS</button></a></li>
+                </ul>
+            </div>
+            <div class="marku">
+                <marquee behavior="loop" direction="left" scrollamount="20">Join now!!! Into the top ranked university
+                    in India</marquee>
+            </div>
+        </div>
+        <div class="con1" id="c1">
+            <div class="text1" id="txt">
+                <span>Unleash</span>
+                <span>Your</span>
+                <span>Potential</span>
+                <p>Education For Life and Living</p>
+                <button onclick="scrollWin()">Scroll to see more</button>
+                <a href="brochure.pdf" target="_blank"><button title="Download Brochure">Brochure</button></a>
+            </div>
+            <!-- <button onclick="typeWriter()" style="background-color: black;color:white;">hello</button> -->
+            <!-- <div id="demo"></div> -->
+
+        </div>
+    </div>
+    <div id="about">
+        <div class="details" id="det">
+            <div class="history">
+                <h3>History</h3>
+                <hr>
+                <p>The university was founded with the opening of Amrita School of Engineering, Coimbatore in 1994 by
+                    Mata
+                    Amritanandamayi Devi and is managed by her international humanitarian organisation Mata
+                    Amritanandamayi
+                    Math. In 2003, it became one of the youngest institutes to be accredited as a deemed to be
+                    university by
+                    the
+                    UGC. In 2002, campuses in Amritapuri and Bangalore were started. In 2021, Amrita introduced 8
+                    online degree programs under the brand name Amrita AHEAD.The Online programs are UGC entitled. Some
+                    of
+                    the prominent online programs include Master of Business Administration, Master Computer
+                    Applications, Bachelor of Computer Applications.</p>
+            </div>
+            <div class="chancellor">
+                <h3>Our Chancellor</h3>
+                <hr>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/M%C4%81t%C4%81_Amrit%C4%81nandamay%C4%AB_Dev%C4%AB.jpg/330px-M%C4%81t%C4%81_Amrit%C4%81nandamay%C4%AB_Dev%C4%AB.jpg"
+                    alt="">
+                <p>
+                    Sri Mātā Amritānandamayī (born Sudhamani Idamannel; 27 September 1953), often known as Amma
+                    ("Mother"),
+                    is an Indian Hindu spiritual leader, guru and humanitarian, who is revered as 'the hugging saint'
+                    by her followers. She is the chancellor of multi-campus research university Amrita Vishwa
+                    Vidyapeetham.
+
+                    In 2018, she was felicitated by Indian Prime Minister Narendra Modi for largest contribution to the
+                    Government of India's Clean India Campaign Swachh Bharat Mission. She was the first recipient of
+                    Vishwaratna Puraskar (Gem of the World Award) by Hindu Parliament.
+                </p>
+            </div>
+        </div>
+        <div class="moredets" id="mdets">
+            <div class="ranking">
+                <table>
+                    <th colspan="2">Our Rankings</th>
+                    <tr>
+                        <td colspan="2" style="background-color: brown;" class="spltd">General-International</td>
+                    </tr>
+                    <tr>
+                        <td>QS(Asia)(2023)</td>
+                        <td>301-350</td>
+                    </tr>
+                    <tr>
+                        <td>Times (World) (2022)</td>
+                        <td>801-1000</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" style="background-color: brown;" class="spltd">General-India</td>
+                    </tr>
+                    <tr>
+                        <td>NIRF (Overall) (2022)</td>
+                        <td>16</td>
+                    </tr>
+                    <tr>
+                        <td>NIRF (Universities) (2022)</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" style="background-color: brown;" class="spltd">Engineering India</td>
+                    </tr>
+                    <tr>
+                        <td>NIRF(2022)</td>
+                        <td>19</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="video">
+                <iframe  width="500" height="315" src="https://www.youtube.com/embed/2AMYfotOrk0?si=obVmOkhNBY1SEhEK"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+            </div>
+        </div>
+        
+    </div>
+    
+    <div id="campus">
+        <div class="campuses" id="ourcamp">
+            <h3>Our Campuses</h3>
+            <ul>
+                <li><button class="cmpbtn" id="amp" onclick="amritapurishow()">Amritapuri</button></li>
+                <li><button class="cmpbtn" id="coim" onclick="coimshow()">Coimbatore</button></li>
+                <li><button class="cmpbtn" id="blr" onclick="blrshow()">Bengaluru</button></li>
+                <li><button class="cmpbtn" id="ch" onclick="showhide()">Chennai</button></li>
+                <li><button class="cmpbtn" id="amr" onclick="amrshow()">Amaravati</button></li>
+                <li><button class="cmpbtn" id="fr" onclick="farshow()">Faridabad</button></li>
+                <li><button class="cmpbtn" id="kch" onclick="kochishow()">Kochi</button></li>
+                <li><button class="cmpbtn" id="mys" onclick="myshow()">Mysuru</button></li>
+
+            </ul>
+            <div id="chennai" class="colleges">
+                <p>Amrita Vishwa Vidyapeetham's Chennai campus at Vengal, Tamil Nadu offers various engineering programs
+                    developed on a choice-based credit system following continuous evaluation by faculties who guide
+                    students</p><br>
+                <img src="amch.jpg" alt="">
+            </div>
+            <div id="amritapuri" class="colleges">
+                <p>Amrita Vishwa Vidyapeetham's Amritapuri campus located in the pleasing village of Vallikavu is a
+                    multi-disciplinary research and teaching institute peacefully blended with science and spirituality
+                </p><br>
+                <img src="ampuri.jpg" alt="">
+            </div>
+            <div id="coimbatore" class="colleges">
+                <p>Amrita University's Coimbatore campus started in a hidden village named Ettimadai provides over 120
+                    UG,
+                    PG and doctoral programs to a student population of over 12,000 and faculty strength of nearly 1500
+                </p><br>
+                <img src="coimbatore.jpg" alt="">
+            </div>
+            <div id="blru" class="colleges">
+                <p>Amrita University's Bengaluru Campus situated in Junnasandra, Karnataka, aims to create graduates
+                    with a
+                    solution mindset and a high degree of ethical standards</p><br>
+                <img src="amblr.jpg" alt="">
+            </div>
+            <div id="amravati" class="colleges">
+                Welcome to our seventh campus at Amaravati in Andhra Pradesh. Amrita is a multi-disciplinary,
+                research-intensive university and is accredited with the highest possible A++ NAAC grade and is the
+                country’s 5th best-ranked university in the NIRF rankings 2021. We invite you to join our new Amaravati
+                campus in various faculty and administrative positions.
+            </div>
+            <div id="farid" class="colleges">
+                A land that has witnessed the historical prominence of ultra-modern facilities in India. A place where
+                science, technology, and research merge to embrace good health across a 130-acre sprawling health city
+                campus.
+            </div>
+            <div id="kochi" class="colleges">
+                Amrita Vishwa Vidyapeetham's Kochi campus is an extensive campus comprising a premier multispeciality
+                hospital, Amrita Institute of Medical Sciences, School of Medicine, Dentistry, Nursing, Pharmacy, Allied
+                Health Sciences, Center for Nanosciences along with a School of Arts and Sciences and Department of
+                Management as well
+            </div>
+            <div id="mysuru" class="colleges">
+                Amrita University's Mysuru campus situated at Bhogadi, Karnataka away from the hustle & bustle of the
+                city combining state-of-the-art facilities offers a perfect environment that fulfills the aspirations of
+                young minds and meets the requirements of future employers
+            </div>
+        </div>
+        <div class="courses" id="ourcou">
+            <h3>Our Courses</h3>
+            <div id="course1" class="clist">
+                <ul>
+                    <li>Artificial Intelligence</li>
+                    <li>Arts, Humanities & Commerce</li>
+                    <li>Agriculture</li>
+                    <li>Architecture</li>
+                    <li>Allied Health Sciences</li>
+                    <li>Ayurveda</li>
+                    <li>Biotechnology</li>
+                </ul>
+            </div>
+            <div id="course2" class="clist">
+                <ul>
+                    <li>Business</li>
+                    <li>Media & Communications</li>
+                    <li>Computing</li>
+                    <li>Dentistry</li>
+                    <li>Engineering</li>
+                    <li>Medicine</li>
+                    <li>Nursing</li>
+                </ul>
+            </div>
+            <div id="course3" class="clist">
+                <ul>
+                    <li>Pharmacy</li>
+                    <li>Physical Sciences</li>
+                    <li>Spiritual & Cultural Studies</li>
+                    <li>Social work</li>
+                    <li>Nano Sciences</li>
+                    <li>Online Degree</li>
+                    <li>Certificate Programs</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    <div id="events">
+        <h3 id="h">News & Events</h3>
+        <div class="event1" id="e1">
+            <img src="dastaan.jpg" alt="">
+            Dastaan is a national-level college fest where the fusion of technology and storytelling takes center stage.
+            We invite you to explore the captivating link between narratives and innovation where you craft your own
+            stories and just as stories shape our lives. “Awakening to the Eternal Now” promises to be a historic
+            celebration of innovation and entertainment with a profound commitment to making a positive impact on
+            society. Embark on a riveting journey of self-exploration, guided by workshops and activities designed to
+            help you uncover your inner light. Engage with diverse minds, sharing perspectives that enrich your journey.
+            Challenge your skills in thought provoking competitions that bridge tech and management, while gaining
+            insights from industry luminaries. Whether you’re a student, professional, or sponsor, Dastaan welcomes you
+            to be part of this narrative, where imagination knows no boundaries and stories inspire new possibilities.
+            Illuminate your path, empower your growth, and inspire a world waiting for your brilliance. Shape the next
+            chapter and craft your next story at Dastaan.
+        </div>
+        <div class="event2" id="e2">
+            <img src="tantrotsav.jpg" alt="">
+            Tantrotsav is a technical festival. The event seeks to achieve communication of innovative ideas that
+            promote the cause of the technological advantage among the students and also to keep them abreast with the
+            latest advances in their respective fields. It also opens a window for the participants to interact with
+            people from different backgrounds and upgrade their knowledge. The event also has gaming tournaments that
+            help to booststrategic thinking, teamwork, communication, leadership, performance skills, and confidence
+            building.A hands-on workshop helps participants to be more confident in the learning domain. The competition
+            helps the students to become more inquisitive, research independently, and learn to work with others.
+        </div>
+        <div class="event3" id="e3" >
+            <img src="anokha.jpg" alt="">
+            Anokha, the national techfest of Amrita Vishwa Vidyapeetham Coimbatore, is a 3-day congregation of some of
+            the brightest minds in India. Founded in 2010, Anokha has grown by leaps and bounds and has progressed to
+            become one of the leading techfests in India. Anokha has successfully completed ten editions and boasts an
+            average annual participation of over 10,000 outstanding students from top-ranking engineering institutions
+            in India like IITs, BITS, NITs and IIITs as well as partner universities in USA and Europe namely University
+            of New Mexico, EVRY France and Uppsala University-Sweden.
+        </div>
+    </div>
+
+    <div id="rankings">
+        <div class="images">
+            <marquee behavior="loop" direction="">
+                <img src="aw1.png" alt="">
+                <img src="aw2.png" alt="">
+                <img src="aw3.png" alt="">
+                <img src="aw4.png" alt="">
+                <img src="aw5.png" alt="">
+            </marquee>
+        </div>
+    </div>
+
+    <div class="admission" id="admiss">
+        <div class="a">
+            <h3>ADMISSIONS</h3> <a href="admissions.html" target="_blank"><button>APPLY NOW</button></a>
+        </div>
+        <div class="q">
+            <h3>For Queries</h3><a href="query.html" target="_blank"><button>QUERY</button></a>
+        </div>
+    </div>
+    <div id="reachus">
+        <div class="lastpage">
+            <div class="lp1" id="lp1">
+                <img src="logo.svg" alt="">
+            </div>
+            <div class="lp3" id="lp3">
+                <h2>FolloW Us</h2>
+                <div class="logos">
+                    <a href="https://www.facebook.com/AmritaUniversity/" target="_blank"><img src="fb.png" alt=""></a>
+                    <a href="https://twitter.com/AMRITAedu" target="_blank"><img src="x.png" alt=""></a>
+                    <a href="https://www.youtube.com/@AmritaUniversity" target="_blank"><img src="yt.png" alt=""></a>
+                    <a href="https://www.linkedin.com/school/amrita-vishwa-vidyapeetham-official/" target="_blank"><img
+                            src="li.png" alt=""></a>
+                    <a href="https://www.instagram.com/amrita_university/?hl=en" target="_blank"><img src="insta.png"
+                            alt=""></a>
+                </div>
+            </div>
+            <div class="lp2" id="lp2">
+                <h2>MAIN CAMPUS</h2>
+                <p>
+                    Amrita University, Amritanagar, Ettimadai, Tamil Nadu 641112
+                    Phone: 044 4813 3323
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+<script src="script.js"></script>
+</html>

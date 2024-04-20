@@ -1,0 +1,1200 @@
+body {
+    margin: 0;
+    padding: 0;
+    cursor: url(cursor2.png),auto;
+}
+
+html {
+    scroll-behavior: smooth;
+    width: 100vw;
+    overflow-x: hidden;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.list li {
+    display: inline;
+    color: wheat;
+    font-size: 25px;
+    margin-right: 20px;
+
+}
+
+.sidebar {
+    background-color: rgb(183, 61, 61);
+    width: 10vw;
+    height: 50vh;
+    position: absolute;
+    position: fixed;
+    display: none;
+}
+
+.hamburger,
+.sidebar {
+    display: none;
+}
+
+.list li a {
+    color: gold;
+}
+
+.navbar {
+    height: 10vh;
+    width: 100%;
+    background-color: brown;
+    word-spacing: 40px;
+}
+
+.list {
+    float: right;
+    /* background-color: green; */
+    height: 100%;
+    /* margin: 10px; */
+    /* width: 40%; */
+    /*word-spacing: 20px; */
+
+}
+
+.logo {
+    float: left;
+    height: 100%;
+    /* background-color: blue; */
+}
+
+.navbar2 {
+    height: 5vh;
+    width: 100%;
+    /* background-color: rgb(255, 0, 0); */
+    background-color: lightcoral;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+.list2 {
+    /* background-color: green; */
+
+    width: fit-content;
+    border-left: 2px solid black;
+
+}
+
+.list2 ul {
+    margin: 0;
+    padding: 0;
+    /* margin-top: 5px; */
+    /* margin-left: 10px; */
+}
+
+
+.navbar2 li {
+    display: inline;
+    margin-right: 20px;
+    margin-top: 20px;
+    padding: 0;
+}
+
+.marku {
+    width: 80%;
+    color: white;
+}
+
+.marku marquee {
+    margin-top: 10px;
+}
+
+.navbar2 button {
+    height: 34px;
+    opacity: 0.8;
+    background: none;
+    border: none;
+    /* background-color: rgb(25, 7, 6); */
+    color: black;
+    font-family: cursive;
+    border-radius: 0px;
+}
+
+.navbar2 button:hover {
+    background-image: linear-gradient(to right, brown, rgb(242, 234, 234), brown);
+    border-radius: 10px;
+}
+
+
+.con1 {
+    margin: 0;
+    padding: 0;
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-image: url(ambg1.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    font-size: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+}
+
+.text1 {
+    width: 30%;
+    text-align: center;
+    /* font-family: "Ubuntu", sans-serif;
+    font-weight: 400; */
+    font-style: italic;
+    font-family: "Macondo", cursive;
+    font-weight: 400;
+    /* font-style: normal; */
+    /* font-weight: bold; */
+    text-shadow: 0px 4px 8px black;
+    /* text-decoration: double underline 2px rgb(216, 169, 169); */
+    color: rgb(246, 241, 241);
+}
+
+#about {
+    margin: 0;
+    padding: 0;
+    height: fit-content;
+    width: 100%;
+    /* background-color: lightgreen; */
+    display: flex;
+    background-color: rgb(216, 169, 169);
+    /* background-image: linear-gradient(to right,gold,rgb(245, 188, 18),gold) */
+    /* justify-content: center; */
+}
+
+.colleges {
+    font-size: 15px;
+}
+
+.dark2 {
+    /* background-color: rgb(222, 55, 55); */
+    color: white;
+}
+
+.dark3 {
+    margin: auto;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    overflow: auto;
+    background: linear-gradient(315deg, rgba(101, 0, 94, 1) 3%, rgb(206, 60, 60) 38%, rgb(23, 23, 23) 68%, rgba(255, 25, 25, 1) 98%);
+    animation: gradient 15s ease infinite;
+    background-size: 400% 400%;
+    background-attachment: fixed;
+}
+
+#campus {
+    margin: 0;
+    padding: 0;
+    height: fit-content;
+    width: 100%;
+    /* background-color: lightblue; */
+    display: flex;
+    background-color: rgb(216, 169, 169);
+    /* border: 2px dotted blue; */
+}
+
+.history {
+    /* border: 2px solid black; */
+    width: 90%;
+    margin: 20px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    /* background-color: lightcoral; */
+}
+
+
+
+.chancellor {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    width: 90%;
+    /* border: 2px solid black; */
+    /* background-color: rosybrown; */
+    margin: 20px;
+}
+
+.chancellor img {
+    margin-left: 20px;
+}
+
+
+
+.history h3 {
+    color: rgb(62, 16, 16);
+}
+
+.chancellor h3 {
+    color: rgb(62, 16, 16);
+}
+
+.ranking {
+    width: 40%;
+    height: 50%;
+    /* border: 2px solid black; */
+    /* background-color: yellow; */
+    align-content: center;
+    text-align: center;
+
+}
+
+.details {
+    /* border: 2px solid black; */
+    /* background-color: blueviolet; */
+    width: 50%;
+}
+
+table,
+th,
+td {
+    /* border: 2px solid green; */
+    text-align: center;
+    border-collapse: collapse;
+    background-color: lightcoral;
+
+
+}
+
+table {
+    width: 100%;
+
+    /* border: 2px solid black; */
+}
+
+.moredets {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    flex-direction: column;
+}
+
+.spltd {
+    border-bottom: 2px solid black;
+    color: white;
+}
+
+/* .chennai{
+    display: none;
+    width:600px;
+
+}
+.ch:hover + .chennai{
+    display: block;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    
+} */
+.campuses li:hover {
+    cursor: pointer;
+    margin: 20px;
+}
+
+.campuses li {
+    margin: 20px;
+
+}
+
+.campuses button {
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
+}
+
+.campuses ul {
+    list-style: square;
+}
+
+.campus {
+
+    display: flex;
+    /* width: 50%; */
+}
+
+#campus {
+    background-color: rgb(216, 169, 169);
+
+    height: 100vh;
+}
+
+.campuses {
+    width: 50%;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    font-family: "Tajawal", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+.campuses button {
+    background: none;
+    border: none;
+}
+
+#chennai,
+#amritapuri,
+#coimbatore,
+#blru,
+#amravati,
+#farid,
+#kochi,
+#mysuru {
+    /* border: 2px solid black; */
+    height: fit-content;
+    width: fit-content;
+    text-align: center;
+    display: none;
+}
+
+.campuses img {
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.courses {
+    display: flex;
+    align-items: center;
+
+}
+
+#campus h3 {
+    /* color: rgb(151, 127, 127); */
+    color: black;
+    font-size: 25px;
+    transform: rotate(-75deg);
+}
+
+.clist {
+    /* background-color: lightpink; */
+    height: 100%;
+    width: fit-content;
+    align-content: center;
+    margin: 10px;
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.clist ul {
+    list-style-type: none;
+}
+
+.clist li {
+    margin: 20px;
+}
+
+.clist li:hover {
+    /* border: 2px solid red; */
+    /* border-radius: 10px; */
+    background-color: rgb(165, 42, 42, 0.2);
+}
+
+#rankings {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    background-color: rgb(216, 169, 169);
+    /* padding: 100px; */
+    /* background-color: green; */
+    /* background-color: brown; */
+    /* border-bottom: 10px solid coral; */
+}
+
+.images {
+    /* border: 2px solid black; */
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+    /* padding: 100px; */
+    width: 1000px;
+    height: 500px;
+    height: auto;
+    margin: auto;
+    /* background-color: coral; */
+}
+
+.images img:hover {
+    padding: 0px;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 5px 5px coral;
+    opacity: 1;
+}
+
+.images img {
+    padding: 10px;
+    opacity: 0.5;
+}
+
+.admission {
+    display: flex;
+    background-color: rgb(165, 42, 42);
+    /* border: 10px groove white; */
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+
+}
+
+.admission h3 {
+    margin: 25px;
+    font-size: 25px;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+.admission button {
+    height: 40px;
+    width: 150px;
+    border-radius: 25px;
+    background-color: rgb(165, 42, 42);
+    border: 3px solid white;
+    color: white;
+    font-size: 15px;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.admission button:hover {
+    background-color: white;
+    color: brown;
+    font-weight: bold;
+}
+
+.lastpage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, brown, rgb(236, 187, 187), brown);
+}
+
+.lp1,
+.lp2,
+.lp3 {
+    color: white;
+    height: 150px;
+    width: 30%;
+    margin: 20px;
+    /* background-color: black; */
+}
+
+.lp1 {
+    align-content: center;
+    text-align: center;
+    /* background-color: brown; */
+}
+
+.lp2 {
+    text-align: center;
+    align-content: center;
+    /* background-color: brown;    */
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.lp2 h2,
+.lp3 h2 {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.lp3 {
+
+    color: brown;
+    align-content: center;
+    text-align: center;
+}
+
+.lp3 img {
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+    border-radius: 25px;
+}
+
+.lp3 img:hover {
+    height: 45px;
+    width: 45px;
+}
+
+#events {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(216, 169, 169);
+}
+
+.event1,
+.event2,
+.event3 {
+    opacity: 0.5;
+    height: fit-content;
+    width: 30%;
+    background-color: brown;
+    color: white;
+    margin: 30px;
+    padding: 20px;
+    text-align: center;
+    align-content: center;
+    box-shadow: 10px 10px 10px 10px lightcoral;
+}
+
+.con1 p {
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(251, 247, 247);
+    font-family: "Macondo", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.event1:hover,
+.event2:hover,
+.event3:hover {
+    opacity: 1;
+    padding: 20px;
+}
+
+.event1 img {
+    width: 100%;
+    /* padding: 20px; */
+}
+.event3 img {
+    width: 100%;
+    /* padding: 20px; */
+}
+.event2 img {
+    width: 100%;
+    /* padding: 20px; */
+}
+#events h3 {
+    color: rgb(62, 16, 16);
+    transform: rotate(-75deg);
+    font-size: 40px;
+}
+.form {
+    height: 100%;
+    width: 80%;
+    background-color: rgb(232, 83, 83);
+    margin: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: rgb(221, 203, 203);
+    font-size: 20px;
+}
+.f1 {
+    text-align: center;
+    align-content: center;
+    height: 20%;
+    background-color: brown;
+    border-radius: 10px;
+}
+.f2 {
+    display: flex;
+    justify-content: center;
+}
+.f2 input[type=submit],
+input[type=reset] {
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(150, 30, 30);
+    margin: 20px;
+    margin-left: 150px;
+}
+.phone {
+    display: none;
+}
+input[type=text],
+input[type=number] {
+    width: 100%;
+    box-sizing: border-box;
+}
+.hamburger {
+    display: none;
+}
+@media screen and (max-width:400px) {
+    .form {
+        width: 100%;
+    }
+
+    .f1 {
+        border-radius: 0px;
+    }
+
+    .hamburger {
+        position: absolute;
+        height: 20px;
+        background-color: lightblue;
+
+    }
+
+    .sidebar {
+        position: absolute;
+        position: fixed;
+        /* display: inline; */
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        transition: transform 0.3s ease-in-out;
+        color: white;
+
+    }
+
+    .ham {
+        background-color: gold;
+        border-radius: 2px;
+        position: fixed;
+    }
+
+    .cross {
+        background-color: gold;
+        border-radius: 2px;
+        position: fixed;
+    }
+
+    .sidebar li {
+        display: block;
+        font-size: 20px;
+        /* border: 2px solid black; */
+        padding: 15px;
+        font-size: 20px;
+        padding-left: 0px;
+    }
+
+    .sidebar li a {
+        color: gold;
+    }
+
+    .sidebar a:hover {
+        text-decoration: solid underline rgb(236, 158, 13);
+    }
+
+    .sidebargo {
+        transform: translate(-443px, 0px);
+        position: absolute;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .list li {
+        margin: 20px;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .navbar li {
+        float: left;
+    }
+
+    .navbar2 {
+        display: none;
+    }
+
+    #home {
+        display: flex;
+        background-color: blue;
+        width: 100%;
+        display: none;
+    }
+
+    .con1 {
+        background-image: none;
+        background-color: brown;
+
+    }
+
+    .text1 {
+        color: lightsalmon;
+    }
+
+    body {
+        overflow-x: hidden;
+        background-color: brown;
+    }
+
+    .phlogo {
+        background-color: brown;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        height: 10%;
+    }
+
+    .phcon1 {
+        background-color: gold;
+        height: 100vh;
+        /* display: flex; */
+        text-align: center;
+        align-content: center;
+        font-size: 50px;
+
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        color: brown;
+    }
+
+    .phcon1 p {
+        font-size: 25px;
+    }
+
+    #phabout {
+        height: fit-content;
+        /* background-color: rgb(211, 204, 164); */
+        text-align: center;
+    }
+
+    #phabout h2 {
+        color: brown;
+        font-family: cursive;
+    }
+
+    .phcon1 button {
+        height: 40px;
+        background-color: brown;
+        color: gold;
+        border-radius: 10px;
+
+    }
+
+    .phcon1 span {
+        display: block;
+    }
+
+    .details {
+        display: block;
+    }
+
+    .details {
+        display: none;
+    }
+
+    .campuses li {
+        display: block;
+        /* border: 2px solid black; */
+        margin: 0px;
+    }
+
+    #rankings img {
+        opacity: 1;
+    }
+
+    .campuses {
+        display: block;
+        margin: auto;
+
+    }
+
+    .colleges {
+        border-top: 30px solid brown;
+    }
+
+    #campus h3 {
+        font-size: 50px;
+        transform: rotate(0deg);
+    }
+
+    .courses {
+        display: none;
+    }
+
+    .ranking {
+        display: none;
+    }
+
+    .video {
+        display: none;
+    }
+
+    .phone {
+        height: 100vh;
+        display: inline;
+        /* display: flex; */
+        justify-content: center;
+
+    }
+
+    .lp1 {
+        display: none;
+    }
+
+    .lastpage {
+        display: block;
+    }
+
+    .lp3 {
+        display: block;
+        margin: auto;
+        background-color: gold;
+
+        width: 100vw;
+    }
+
+    .logos {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .lp3 h2 {
+        display: inline;
+    }
+
+    .lp2 {
+        display: block;
+        margin: auto;
+        width: 100vw;
+        background-color: brown;
+
+    }
+
+    .colleges {
+        color: black;
+        font-weight: 450;
+        font-style: italic;
+    }
+
+    .campuses {
+        /* border: 2px solid black; */
+        width: 100vw;
+        text-align: center;
+        /* background-color: gold; */
+
+    }
+
+    .campuses ul {
+        /* border: 2px solid black; */
+        font-size: 20px;
+    }
+
+    .colleges img {
+        display: none;
+    }
+
+    #events {
+        display: none;
+    }
+
+    #rankings {
+        background-color: gold;
+    }
+
+    .query {
+        margin-left: 0px;
+        float: left;
+        width: 100vw;
+    }
+
+    .qform form div {
+        /* background-color: yellow; */
+        margin-left: 0px;
+
+    }
+
+    .qform {
+        width: fit-content;
+    }
+
+    .query textarea {
+        width: 70vw;
+    }
+
+    .qform input {
+        width: 100%;
+    }
+
+    .phcon1 {
+        background-image: url(amchbg.jpg);
+        background-size: cover;
+        color: rgb(208, 23, 23);
+    }
+
+    .phcon1 p {
+        margin-top: 100px;
+    }
+
+    .form {
+        width: 80%;
+    }
+
+    body {
+        margin: auto;
+        font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+        overflow: auto;
+        background: linear-gradient(315deg, rgb(125, 11, 118) 3%, rgb(206, 60, 60) 38%, rgb(234, 223, 223) 68%, rgba(255, 25, 25, 1) 98%);
+        animation: gradient 15s ease infinite;
+        background-size: 400% 400%;
+        background-attachment: fixed;
+    }
+
+}
+.bgdark {
+    background-image: none;
+    background-color: rgba(0, 0, 0, 1);
+    opacity: 1;
+    color: white;
+}
+.lpdark {
+    background-image: none;
+    background-color: rgba(0, 0, 0, 1);
+    opacity: 1;
+    color: white;
+    border-radius: 10px;
+}
+.hdark {
+    color: white;
+}
+.darkk {
+    background-color: rgb(0, 0, 0);
+}
+.navbar2dark {
+    background-color: rgb(121, 44, 44);
+    color: black;
+}
+.query {
+    background-color: brown;
+    height: fit-content;
+    width: 50vw;
+    margin: auto;
+
+}
+.dlight {
+    background-color: white;
+    color: black;
+}
+.c1dark {
+    background-image: url(amchbg2.jpg);
+    background-size: cover;
+}
+#ldark {
+    border-radius: 10px;
+    height: 30px;
+    background-color: rgb(4, 3, 8);
+    color: white;
+    font-family: cursive;
+}
+.query textarea {
+    margin: 20px;
+}
+mark {
+    background-color: rgb(0, 0, 0, 0.25);
+    color: brown;
+    border-radius: 20px;
+}
+span:hover {
+    padding: 20px;
+}
+.qform {
+    margin-top: 0px;
+    padding: 0 0px;
+    padding-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    font-family: cursive;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    opacity: 1;
+    color: white;
+    background-color: transparent;
+    border-radius: 0px;
+    border-radius: 20px;
+}
+.qform form div {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+.qform form div input {
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+
+}
+.qform h1 {
+    margin-left: 50px;
+}
+.qlogo {
+    text-align: center;
+}
+#rankings,
+#about,
+#campus,
+#events {
+    margin: auto;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    overflow: auto;
+    background: linear-gradient(315deg, rgba(101, 0, 94, 1) 3%, rgb(206, 60, 60) 38%, rgb(234, 223, 223) 68%, rgba(255, 25, 25, 1) 98%);
+    animation: gradient 15s ease infinite;
+    background-size: 400% 400%;
+    background-attachment: fixed;
+}
+input[type=text],
+input[type=tel],
+input[type=email],
+select,
+input[type=date],
+input[type=file],
+input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: transparent;
+}
+input[type=text]:hover,
+input[type=tel]:hover,
+input[type=email]:hover,
+select:hover,
+input[type=date]:hover,
+input[type=file]:hover {
+    color: black;
+    background-color: white;
+}
+.query {
+    margin: auto;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    overflow: auto;
+    background: linear-gradient(315deg, rgba(101, 0, 94, 1) 3%, rgb(206, 60, 60) 38%, rgb(234, 223, 223) 68%, rgba(255, 25, 25, 1) 98%);
+    animation: gradient 15s ease infinite;
+    background-size: 400% 400%;
+    background-attachment: fixed;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 0%;
+    }
+
+    50% {
+        background-position: 100% 100%;
+    }
+
+    100% {
+        background-position: 0% 0%;
+    }
+}
+.wave {
+    background: rgba(211, 36, 36, 0.25);
+    border-radius: 1000% 1000% 0 0;
+    position: fixed;
+    width: 200%;
+    height: 12em;
+    animation: wave 10s -3s linear infinite;
+    transform: translate3d(0, 0, 0);
+    opacity: 0.8;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+.wave:nth-of-type(2) {
+    bottom: -1.25em;
+    animation: wave 18s linear reverse infinite;
+    opacity: 0.8;
+}
+.wave:nth-of-type(3) {
+    bottom: -2.5em;
+    animation: wave 20s -1s reverse infinite;
+    opacity: 0.9;
+}
+@keyframes wave {
+    2% {
+        transform: translateX(1);
+    }
+
+    25% {
+        transform: translateX(-25%);
+    }
+
+    50% {
+        transform: translateX(-50%);
+    }
+
+    75% {
+        transform: translateX(-25%);
+    }
+
+    100% {
+        transform: translateX(1);
+    }
+}
+.con1 button {
+    height: 40px;
+    background-color: brown;
+    color: gold;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+.con1 button:hover {
+    border: 2px solid white;
+}
+#ad {
+    overflow: auto;
+    background: linear-gradient(315deg, rgb(125, 11, 118) 3%, rgb(206, 60, 60) 38%, rgb(234, 223, 223) 68%, rgba(255, 25, 25, 1) 98%);
+    animation: gradient 15s ease infinite;
+    background-size: 400% 400%;
+    background-attachment: fixed;
+}
+#topBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: 2px groove white;
+    outline: none;
+    background-color: rgb(150, 50, 50);
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+}
+#topBtn:hover {
+    border: 2px groove black;
+    background-color: #e0dfdf;
+    opacity: 1;
+
+}
+.tbtn {
+    background-color: black;
+}
+button:hover {
+    cursor: pointer;
+}

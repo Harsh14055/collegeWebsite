@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icon.png">
+</head>
+<body style="margin: auto;" id="ad">
+    <div class="form">
+        <div class="f1">
+            <img src="logo.svg" alt="">
+        </div>
+        <div class="f2" id="f2">
+           <form name="myForm" action="" onsubmit="return validateForm()">
+            <label for="fname">First Name: </label><br>
+            <input type="text" id="fname" name="fname" oninput="toUC()"><div class="nameError"></div><br>
+            <label for="lname">Last Name: </label><br>
+            <input type="text" name="lname" id="lname" oninput="toUC()"><br>
+            <label for="dob">DOB:</label>
+            <input type="date" name="dob" id="dob"><br>
+            <label for="num">Age:</label><br>
+            <input type="number" name="num" id="num" min="16" max="21"><br>
+            <label for="field">Select Field:</label>
+            <select name="field" id="field">
+                <option value="Engineering">Engineering</option>
+                <option value="Medical">Medical</option>
+                <option value="MBA">MBA</option>
+            </select><br>
+            <label for="phone">Ph No.:</label>
+            <input type="tel" name="phone" id="phone"><br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+            <label for="file">Upload your JEE Markscard</label><br>
+            <input type="file" name="file" id="file"><br>
+            <label for="file2">Upload your AEEE Markscard</label><br>
+            <input type="file" name="file2" id="file2"><br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+           </form> 
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
